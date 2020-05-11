@@ -166,10 +166,10 @@ nav.navigation a:hover{
     
 }
 .content aside {
-    max-width: 100%;
-    width: 320px;
+    max-width: 320px;
     border-right: 1px #000 solid;
     padding: 10px;
+    flex-shrink: 0;
 }
 .content main {
     padding: 10px;
@@ -227,7 +227,7 @@ nav.navigation a:hover{
     border: none;
 }
 .bestseller img{
-    max-width: 120%;
+    max-width: 70%;
 }
 .bestseller h4{
     padding-top: 10px;
@@ -381,7 +381,10 @@ caption{
 .touch img{
     width: 50%;
 }
-.foot{
+.foot .container{
+    max-width: 100%;
+}
+.foot {
     border: #000 solid 1px;
     color: #fff;
     background-color: #000;
@@ -426,7 +429,7 @@ caption{
         }
         .footer.container > *{
            margin: 20px 0; 
-           width: 100%;
+           max-width: 100%;;
         }
         
     }
