@@ -196,6 +196,9 @@ nav.navigation a:hover{
     list-style-type: none;
    
 }
+.sidebar-navigation{
+    padding-bottom: 20px;
+}
 
 .sidebar-navigation li:not(:last-child){
     border-bottom: 1px dashed #000;
@@ -224,7 +227,7 @@ nav.navigation a:hover{
     border: none;
 }
 .bestseller img{
-    max-width: 70%;
+    max-width: 120%;
 }
 .bestseller h4{
     padding-top: 10px;
