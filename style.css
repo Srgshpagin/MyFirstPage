@@ -214,7 +214,7 @@ nav.navigation a:hover{
     color: #000
 }
 .sidebar-navigation li:hover a{
-    color: indigo;
+    color: rgb(30, 3, 49);
 }
 
 .bestseller li{
